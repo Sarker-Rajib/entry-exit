@@ -1,0 +1,203 @@
+/*=== abstracts css start === */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+/*===// end of abstracts css === */
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+/*===// end of base css === */
+/*=== layouts css start === */
+.wrapper {
+  padding-top: 100px;
+  padding-right: 100px;
+}
+@media (max-width: 991px) {
+  .wrapper {
+    width: 700px;
+  }
+}
+.wrapper .col-card {
+  min-height: 650px;
+}
+.wrapper .col-card .barrier {
+  position: absolute;
+  padding-bottom: 10px;
+  width: 80%;
+  border-bottom: 6px solid #ffd78f;
+}
+.wrapper .col-card .barrier.l {
+  top: 60px;
+  left: 0;
+}
+.wrapper .col-card .barrier.r {
+  top: 265px;
+  right: 0;
+}
+.wrapper .col-card.first {
+  background: #b6b6b6;
+}
+.wrapper .col-card.first .title {
+  position: absolute;
+  bottom: 100%;
+  text-align: center;
+  width: 100%;
+}
+.wrapper .col-card.second {
+  padding-top: 100px;
+}
+.wrapper .col-card.second .gate-house {
+  height: 200px;
+  background: #5b9bd5;
+  border: 1px solid #000;
+}
+.wrapper .col-card.second .intercom {
+  margin-top: 20px;
+  height: 80px;
+  border-right: 15px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.wrapper .col-card.third {
+  background: #b6b6b6;
+  position: relative;
+}
+.wrapper .col-card.third .cctv-1 {
+  position: absolute;
+  right: calc(100% + 10px);
+  bottom: calc(100% + 10px);
+  width: auto;
+  white-space: nowrap;
+}
+.wrapper .col-card.third .cctv-1 p {
+  display: flex;
+  align-items: center;
+}
+.wrapper .col-card.third .cctv-1 .CCTV-up-left {
+  display: inline-block;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background: #4472c4;
+  border-radius: 50%;
+  border-bottom-right-radius: 0;
+}
+.wrapper .col-card.third .visitors {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 60px;
+}
+.wrapper .col-card.third .anpr-1 {
+  position: absolute;
+  right: calc(100% + 10px);
+  bottom: 0;
+  width: auto;
+  white-space: nowrap;
+  text-align: right;
+}
+.wrapper .col-card.third .anpr-1 p {
+  display: flex;
+  align-items: center;
+}
+.wrapper .col-card.third .anpr-1 .anpr-bottom-left {
+  display: inline-block;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  background: #4472c4;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+}
+.wrapper .col-card.third .entry {
+  position: absolute;
+  top: calc(100% + 20px);
+  right: -65px;
+  font-size: 25px;
+}
+.wrapper .col-card.fourth {
+  border-left: 2px solid #fff;
+  background: #b6b6b6;
+  position: relative;
+}
+.wrapper .col-card.fourth .cctv-2 {
+  position: absolute;
+  left: calc(100% + 10px);
+  bottom: calc(100% + 10px);
+  width: auto;
+  white-space: nowrap;
+}
+.wrapper .col-card.fourth .cctv-2 p {
+  display: flex;
+  align-items: center;
+}
+.wrapper .col-card.fourth .cctv-2 .CCTV-up-right {
+  display: inline-block;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  background: #4472c4;
+  border-radius: 50%;
+  border-bottom-left-radius: 0;
+}
+.wrapper .col-card.fourth .residents {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 60px;
+}
+.wrapper .col-card.fourth .anpr-2 {
+  position: absolute;
+  left: calc(100% + 10px);
+  bottom: 0;
+  width: auto;
+  white-space: nowrap;
+}
+.wrapper .col-card.fourth .anpr-2 p {
+  display: flex;
+  align-items: center;
+}
+.wrapper .col-card.fourth .anpr-2 .anpr-bottom-right {
+  display: inline-block;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  background: #4472c4;
+  border-radius: 50%;
+  border-top-left-radius: 0;
+}
+
+/*===// end of layouts css === */
+/*=== components css start === */
+/*===// end of components css === *//*# sourceMappingURL=style.css.map */
