@@ -39,6 +39,7 @@ body {
 /*===// end of base css === */
 /*=== layouts css start === */
 .wrapper {
+  width: 100%;
   padding-top: 100px;
   padding-right: 100px;
 }
